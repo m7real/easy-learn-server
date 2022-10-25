@@ -18,6 +18,13 @@ app.get("/courses", (req, res) => {
   res.send(courses);
 });
 
+// API to get single course through id
+app.get("/course/:id", (req, res) => {
+  const id = req.params.id;
+  const course = courses.find((c) => c._id === id);
+  res.send(course);
+});
+
 app.listen(port, () => {
   console.log("SERVER Running on Port", port);
 });
