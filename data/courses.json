@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "01",
+    "title": "Introduction to C Programming ",
+    "price": "23.99",
+    "img": "",
+    "details": ""
+  },
+  {
+    "_id": "02",
+    "title": "Java Programming for Absolute Beginners",
+    "price": "17.99",
+    "img": "",
+    "details": ""
+  },
+  {
+    "_id": "03",
+    "title": "Complete Python Programming Masterclass",
+    "price": "14.99",
+    "img": "",
+    "details": ""
+  },
+  {
+    "_id": "04",
+    "title": "Deep Dive in C++ Programming ",
+    "price": "23.99",
+    "img": "",
+    "details": ""
+  },
+  {
+    "_id": "05",
+    "title": "Data Structures and Algorithms: Zero to Hero",
+    "price": "29.99",
+    "img": "",
+    "details": ""
+  },
+  {
+    "_id": "06",
+    "title": "R for Beginners",
+    "price": "13.99",
+    "img": "",
+    "details": ""
+  }
+]
