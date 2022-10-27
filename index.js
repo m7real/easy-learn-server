@@ -7,6 +7,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 
 const courses = require("./data/courses.json");
+const blogs = require("./data/blogs.json");
 
 // api on root route for testing purpose
 app.get("/", (req, res) => {
@@ -23,6 +24,11 @@ app.get("/course/:id", (req, res) => {
   const id = req.params.id;
   const course = courses.find((c) => c._id === id);
   res.send(course);
+});
+
+// API to get blogs
+app.get("/blogs", (req, res) => {
+  res.send(blogs);
 });
 
 app.listen(port, () => {
