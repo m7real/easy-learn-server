@@ -1,22 +1,22 @@
 [
   {
     "_id": "01",
-    "question": "What is cors?",
-    "answer": ""
+    "question": "What are the payment methods?",
+    "answer": "We are accepting Credit card (Visa, MasterCard, American Express, Maestro Diners Club, Discover and JCB), PayPal and Google Pay."
   },
   {
     "_id": "02",
-    "question": "Why are you using firebase? What other options do you have to implement authentication?",
-    "answer": ""
+    "question": "Is it possible to pay in installments?",
+    "answer": "No, right now we are not accepting any installment or something like that."
   },
   {
     "_id": "03",
-    "question": "How does the private route work?",
-    "answer": ""
+    "question": "Can I get any certification?",
+    "answer": "After completing any of our courses, you can apply for certification. We will provide your certificate within three working days."
   },
   {
     "_id": "04",
-    "question": "What is Node? How does Node work?",
-    "answer": ""
+    "question": "How long will it take to get my refund?",
+    "answer": "We process refund within 5 working days. Once the refund is processed, the refund amount will be returned to your original payment method within a few days. Exactly how long this process takes depends on your payment method."
   }
 ]

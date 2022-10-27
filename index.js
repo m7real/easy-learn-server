@@ -8,6 +8,7 @@ app.use(cors());
 
 const courses = require("./data/courses.json");
 const blogs = require("./data/blogs.json");
+const faq = require("./data/faq.json");
 
 // api on root route for testing purpose
 app.get("/", (req, res) => {
@@ -29,6 +30,11 @@ app.get("/course/:id", (req, res) => {
 // API to get blogs
 app.get("/blogs", (req, res) => {
   res.send(blogs);
+});
+
+// API to get FAQ
+app.get("/faq", (req, res) => {
+  res.send(faq);
 });
 
 app.listen(port, () => {
